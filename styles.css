@@ -1,0 +1,249 @@
+body{
+	background-image:linear-gradient(brown,white);
+}
+#container{
+	background-color:aqua;
+	width:1000px;
+	margin:auto;
+	padding:20px;
+}
+
+h1{
+	font-family:Courier New, Arial, san-serif;
+	font-weight:bold;
+	color:darkblue;
+	font-size:38px;
+	line-height:0.9;
+	width:600px;
+}
+
+#box{
+	background-color:purple;
+	width:260px;
+	margin-top:-52px;
+	margin-right:60px;
+	padding:12px;
+	border-radius:20px;
+	float:right;
+}
+
+#searchbox{
+	background-color:#D7DA5E;
+	text-align:center;
+	font-family:Verdana;
+	border:2px solid purple;
+	border-radius:10px;
+}
+
+#menu{
+	background-color:lightgreen;
+	width:1000px;
+	margin:auto;
+	padding:20px;
+}
+
+#nav li{
+	list-style-type:none;
+	float:left;
+	margin-right:90px;
+	margin-top:-8px;
+	border-right:2px solid grey;
+	padding-right:30px;
+}
+
+#lastchild{
+	border-right-style:none;
+}
+
+#nav li a{
+	text-decoration:none;
+	font-family:Times New Roman, Arial, san-serif;
+	font-size:20px;
+	color:grey;
+}
+
+#nav li a:hover{
+	text-decoration:none;
+	font-size:25px;
+	background-color:white;
+	color:grey;
+}
+
+#main{
+	background-image:linear-gradient(blue, lightblue);
+	margin:auto;
+	width:1000px;
+	height:200px;
+}
+
+#web{
+	text-align:center;	
+}
+
+#intro{
+	width:950px;
+	height:180px;
+	font-family:Verdana, Arial, san-serif;
+	font-size:30px;
+	line-height:1;
+	text-align:center;
+	color:white;
+	margin:auto;
+	padding:10px;
+}
+
+#second{
+	width:1000px;
+	margin:0px auto;
+}
+
+#purplebox{
+	background-color:purple;
+	width:500px;
+	height:900px;
+	float:left;
+}
+
+#kyklosm{
+	font-family:monospace;
+	font-size:45px;
+	text-align:center;
+	text-decoration:underline;
+	color:lightgreen;
+	font-weight:bold;
+}
+
+#lessons{
+	list-style-image:url('images/check.jpg');
+	margin-left:75px;
+}
+	
+#lessons li a{
+	text-decoration:none;
+	color:orange;
+	font-family:monospace;
+	font-size:25px;
+}
+
+#lessons li a:hover{
+	background-color:orange;
+	color:red;
+	font-size:30px;
+}
+
+#loginbox{
+	background-color:#D7DA5E;
+	width:500px;
+	height:300px;
+	float:right;
+}
+
+#login{
+	font-family:monospace;
+	font-size:45px;
+	text-align:center;
+	text-decoration:underline;
+	color:grey;
+	font-weight:bold;
+}
+
+#loginform{
+	text-align:center;
+}
+
+#loginform label{
+	font-family:Time New Roman, Arial, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:grey;
+}
+
+#loginform input{
+	border:5px solid grey;
+	border-radius:20px;
+	color:grey;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+
+#loginform input:focus{
+		background-color:grey;
+		color:white;
+}
+
+#formbox{
+	background-color:grey;
+	width:500px;
+	height:600px;
+	float:right;
+}
+
+#contact{
+	font-family:monospace;
+	font-size:35px;
+	text-align:center;
+	text-decoration:underline;
+	color:#D7DA5E;
+	font-weight:bold;
+}
+
+#contactform{
+	text-align:center;
+}
+
+#contactform label{
+	font-family:Time New Roman, Arial, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:#D7DA5E;
+}
+
+#contactform input{
+	border:5px solid #D7DA5E;
+	border-radius:10px;
+	color:#D7DA5E;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+
+#contactform input:focus{
+		background-color:grey;
+		color:#D7DA5E;
+}
+
+#message{
+	font-family:Time New Roman, Arial, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:#D7DA5E;
+}
+
+textarea{
+	width:400px;
+	height:250px;
+	border:5px solid #D7DA5E;
+	border-radius:10px;
+	color:#D7DA5E;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+}
+
+textarea:focus{
+		background-color:grey;
+		color:#D7DA5E;
+}
+
+#footer{
+	background-color:aqua;
+	font-family:Courier New, Arial, san-serif;
+	font-weight:bold;
+	color:darkblue;
+	font-size:35px;
+	text-align:center;
+	width:1000px;
+	margin:auto;
+	padding:6px;
+}
+
